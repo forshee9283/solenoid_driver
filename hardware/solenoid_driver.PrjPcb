@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Test Build
 
 [Preferences]
 PrefsVaultGUID=
@@ -73,7 +74,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -117,17 +118,26 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Parameter1]
-Name=HardRev
-Value=A
+[ProjectVariant1]
+UniqueId=e40a43a7-eef0-47aa-abe7-19e7384f3b00
+Description=Test Build
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=C11|UniqueId=\ZPBOJTYG|Kind=1|AlternatePart=
+ParamVariationCount=0
 
-[Parameter2]
+[Parameter1]
 Name=LeadEngineer
 Value=JCF
 
+[Parameter2]
+Name=HardRev
+Value=A
+
 [Parameter3]
 Name=Codename
-Value=solinoid_driver
+Value=solenoid_driver
 
 [Parameter4]
 Name=BOMRev
