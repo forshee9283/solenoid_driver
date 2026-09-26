@@ -1,2 +1,2 @@
-# solinoid_driver
-A MIDI to solinoid driver project
+# solenoid_driver
+A MIDI to solenoid driver project
